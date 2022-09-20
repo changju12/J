@@ -1,0 +1,18 @@
+table{
+	border : 2px solid;
+	border-color : skyblue;
+	padding : 1px;
+}
+th{
+	border : 2px solid;
+	border-color : skyblue;
+	background-color : skyblue;
+	text-align : left;
+}
+td{
+	border : 1px solid;
+}
+h1{
+	text-align : center;
+	margin-top : 10px;
+}

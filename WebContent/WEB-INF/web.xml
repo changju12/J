@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+	<display-name>followingservletjsp</display-name>
+	<welcome-file-list>
+	  <welcome-file>index.html</welcome-file>
+	  <welcome-file>index.htm</welcome-file>
+	  <welcome-file>index.jsp</welcome-file>
+	  <welcome-file>default.html</welcome-file>
+	  <welcome-file>default.htm</welcome-file>
+	  <welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+  
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>implementation.com.userlogin.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>JoinController</servlet-name>
+  	<servlet-class>implementation.com.userlogin.controller.JoinController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>JoinController</servlet-name>
+  	<url-pattern>/JoinController</url-pattern>
+  </servlet-mapping>
+	 
+  <servlet>
+  	<servlet-name>UpdateinfoController</servlet-name>
+  	<servlet-class>implementation.com.userlogin.controller.UpdateinfoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateinfoController</servlet-name>
+  	<url-pattern>/UpdateinfoController</url-pattern>
+  </servlet-mapping> 
+  
+    <servlet>
+  	<servlet-name>idchk</servlet-name>
+  	<servlet-class>implementation.com.userlogin.controller.idchk</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>idchk</servlet-name>
+  	<url-pattern>/idchk</url-pattern>
+  </servlet-mapping> 
+  
+	
+</web-app>
